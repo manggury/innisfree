@@ -68,6 +68,11 @@
     margin: 0 30px 0 0;
 }
 
+.header_bottom.on .header_bottom_wrap .hidden_box img {
+    height: 79px;
+
+}
+
 .header_bottom.on .header_bottom_wrap .menu_btn>p {
     font-size: 0;
 }
@@ -76,11 +81,14 @@
     display: flex;
     height: 80px;
     line-height: 80px;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .header_bottom_wrap .hidden_box {
     display: none;
 }
+
 
 .header_bottom .menu_btn {
     display: flex;
