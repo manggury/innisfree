@@ -8,14 +8,10 @@
 }
 
 .header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-
-    background: var(--background-color);
+    background: #fff;
 }
+
+
 
 .header_top {
     position: relative;
@@ -54,11 +50,36 @@
 }
 
 .header_bottom {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+    background: var(--white-color);
+}
+
+.header_bottom.on {
+    height: 80px;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--line-color);
+}
+
+.header_bottom.on .header_bottom_wrap .hidden_box {
+    display: block;
+    margin: 0 30px 0 0;
+}
+
+.header_bottom.on .header_bottom_wrap .menu_btn>p {
+    font-size: 0;
+}
+
+.header_bottom_wrap {
     display: flex;
-    justify-content: space-between;
     height: 80px;
     line-height: 80px;
+}
+
+.header_bottom_wrap .hidden_box {
+    display: none;
 }
 
 .header_bottom .menu_btn {
@@ -89,6 +110,7 @@
 }
 
 .header_bottom .brend {
+    margin: 0 0 0 auto;
     font-size: 20px;
     font-weight: 500;
 }
@@ -169,6 +191,7 @@
 .visual_slide .itm .slogan .price_area .dis_price {
     font-size: 36px;
     font-weight: 500;
+    color: var(--white-color);
 }
 
 .visual_slide .itm .slogan .price_area .ori_price {
@@ -380,6 +403,7 @@
 .promotion_wrap {
     display: flex;
     gap: 15px;
+
 }
 
 .promotion_wrap .left {
@@ -470,6 +494,7 @@
 .main_news {
     position: relative;
     padding: 100px 0 0 0;
+    overflow: hidden;
 }
 
 .news_wrap {
