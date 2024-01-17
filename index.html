@@ -25,18 +25,18 @@
 <body>
     <div class="wrap">
         <header id="header" class="header">
-            <div class="header_wrap">
+            <div class="header_wrap con">
                 <div class="header_top">
                     <h1>
                         <a href="/">
                             <img src="./images/logo_wh.png" alt="">
                         </a>
                     </h1>
-                    <form action="">
-                        <input type="text">
-                        <a href=""><span class="material-symbols-outlined">
+                    <form action="" method="get">
+                        <input type="text" name="content" placeholder="">
+                        <button><span class="material-symbols-outlined">
                                 search
-                            </span></a>
+                            </span></button>
                     </form>
                     <div class="util">
                         <a href=""><span class="material-symbols-outlined">
@@ -48,12 +48,12 @@
                     </div>
                 </div>
                 <div class="header_bottom">
-                    <div class="menu">
+                    <a href="" class="menu_btn">
                         <span class="material-symbols-outlined">
                             menu
                         </span>
-                        <span>카테고리</span>
-                    </div>
+                        <p>카테고리</p>
+                    </a>
                     <nav class="gnb">
                         <ul>
                             <li><a href="">특가</a></li>
@@ -64,7 +64,7 @@
                             <li><a href="">FOR ME</a></li>
                         </ul>
                     </nav>
-                    <a href="">ABOUT</a>
+                    <a href="" class="brend">ABOUT</a>
                 </div>
             </div>
         </header>
@@ -74,64 +74,63 @@
             <section class="main_visual">
                 <h2 class="blind">메인비주얼</h2>
                 <div class="visual_slide">
-                    <div class="itm">
-                        <img src="./images/mainvisual01.jpg" alt="메인비주얼1">
+                    <div class="itm itm01">
                         <div class="slogan">
                             <div class="top_area">
-                                <span class="dis_box">25%</span>
+                                <span class="dis_box sam">25%</span>
                             </div>
-                            <p>
-                                <strong>2024 럭키박스 출시!</strong><br />
-                                1+1 혜택의 주인공은?
+
+                            <strong>2024 럭키박스 출시!</strong>
+                            <p> 1+1 혜택의 주인공은?
+                            </p>
+                            <div class="price_area">
+                                <span class="dis_price">29,250</span>
+                                <span class="ori_price">39,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itm itm02">
+                        <div class="slogan">
+                            <div class="top_area">
+                                <span class="dis_box sam">25%</span>
+                                <span class="notice_box sam">사은품</span>
+                            </div>
+
+                            <strong>2024 럭키박스 출시!</strong>
+                            <p> 1+1 혜택의 주인공은?
+                            </p>
+                            <div class="price_area">
+                                <span class="dis_price">29,250</span>
+                                <span class="ori_price">39,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itm itm03">
+                        <div class="slogan">
+                            <div class="top_area">
+                                <span class="dis_box sam">25%</span>
+                                <span class="notice_box sam">사은품</span>
+                            </div>
+
+                            <strong>2024 럭키박스 출시!</strong>
+                            <p> 1+1 혜택의 주인공은?
                             </p>
                             <div class="price_area">
                                 <span class="dis_price">29,250</span> <span class="ori_price">39,000</span>
                             </div>
                         </div>
                     </div>
-                    <div class="itm">
-                        <img src="./images/mainvisual02.jpg" alt="메인비주얼2">
+                    <div class="itm itm04">
                         <div class="slogan">
                             <div class="top_area">
-                                <span class="dis_box">25%</span>
-                                <span class="notice_box">사은품</span>
+                                <span class="dis_box sam">25%</span>
+                                <span class="notice_box sam">사은품</span>
                             </div>
-                            <p>
-                                <strong>2024 럭키박스 출시!</strong><br />
-                                1+1 혜택의 주인공은?
-                            </p>
-                            <div class="price_area">
-                                <span class="dis_price">29,250</span> <span class="ori_price">39,000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="itm">
-                        <img src="./images/mainvisual03.jpg" alt="메인비주얼3">
-                        <div class="slogan">
-                            <div class="top_area">
-                                <span class="dis_box">25%</span>
-                                <span class="notice_box">사은품</span>
-                            </div>
-                            <p>
-                                <strong>2024 럭키박스 출시!</strong><br />
-                                1+1 혜택의 주인공은?
-                            </p>
-                            <div class="price_area">
-                                <span class="dis_price">29,250</span> <span class="ori_price">39,000</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="itm">
-                        <img src="./images/mainvisual04.jpg" alt="메인비주얼4">
-                        <div class="slogan">
-                            <div class="top_area">
-                                <span class="dis_box">25%</span>
-                                <span class="notice_box">사은품</span>
-                            </div>
-                            <p>
-                                <strong>2024 럭키박스 출시!</strong><br />
-                                1+1 혜택의 주인공은?
-                            </p>
+
+                            <strong>2024 럭키박스 출시!</strong>
+
+                            <p> 1+1 혜택의 주인공은?</p>
+
                             <div class="price_area">
                                 <span class="dis_price">29,250</span> <span class="ori_price">39,000</span>
                             </div>
@@ -143,7 +142,7 @@
             <section class="main_event sec">
                 <h2 class="blind">메인이벤트</h2>
                 <div class="event_wrap con">
-                    <div class="left">
+                    <div class="event_itm left">
                         <img src="./images/mainevent01.jpg" alt="">
                         <div class="txt_box">
                             <strong>최강한파?!오히려좋아!<br />
@@ -161,7 +160,7 @@
                         </div>
                     </div>
 
-                    <div class="right">
+                    <div class="event_itm right">
                         <img src="./images/mainevent02.jpg" alt="">
                         <div class="txt_box">
                             <strong>최강한파?!오히려좋아!<br />
@@ -178,24 +177,23 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="moving_box">
-                        <span>THE NEW ISLE</span>
-                        <span>THE NEW ISLE</span>
-                        <span>THE NEW ISLE</span>
-                    </div>
+                </div>
+                <div class="moving_box">
+                    <span>THE NEW ISLE</span>
+                    <span>THE NEW ISLE</span>
+                    <span>THE NEW ISLE</span>
                 </div>
             </section>
 
             <section class="main_content sec">
                 <h2 class="blind">메인콘텐츠</h2>
-                <div class="tit">
+                <div class="tit con">
                     <h3>지금제일잘나가요</h3>
-                    <span>더보기
-                        <span class="material-symbols-outlined">
+                    <a href=""><span>더보기</span>
+                        <span class="material-symbols-outlined icon">
                             add
                         </span>
-                    </span>
+                    </a>
                 </div>
                 <div class="content_wrap con">
                     <div class="dot_area">
@@ -211,7 +209,7 @@
                             <figure>
                                 <img src="./images/maincontent01-001.png" alt="">
                                 <div class="txt">
-                                    <p>BEST 블랙티 앰플 50mL[대용량]
+                                    <p>BEST 블랙티 앰플 50mL [대용량]
                                         스페셜 세트 + 블랙티 크림 50mL</p>
                                     <div class="price_box">
                                         <span class="dis_price">39,200원</span>
@@ -687,17 +685,28 @@
                 </div>
             </section>
 
-            <section class="main_promotion">
+            <section class="main_promotion sec">
                 <h2 class="blind">메인프로모션</h2>
                 <div class="promotion_wrap con">
                     <div class="left">
                         <div class="txt">
-                            <p>확신의 쫀쫀광 블랙티 라인
+                            <h3>확신의 쫀쫀광 블랙티 라인
                                 최대 34% 할인+
-                                증정까지!!</p>
-                            <a href="">더보기 <span class="material-symbols-outlined">
+                                증정까지!!</h3>
+                            <a href="">
+                                <span>더보기</span>
+                                <span class="material-symbols-outlined icon">
                                     add
-                                </span></a>
+                                </span>
+                            </a>
+                            <div class="arrows">
+                                <span class="material-symbols-outlined arrow left_arrow">
+                                    chevron_left
+                                </span>
+                                <span class="material-symbols-outlined arrow right_arrow">
+                                    chevron_right
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div class="right">
@@ -844,22 +853,26 @@
                         <img src="./images/mainnews01.jpg" alt="">
                         <div class="txt">
                             <span>1.1(월) 오전 12:00</span>
-                            <strong>2024 럭키박스 출시!<br />
-                                1+1 행운의 주인공은?</strong>
-                            <span class="material-symbols-outlined">
-                                add
-                            </span>
+                            <p>
+                                <strong>2024 럭키박스 출시!<br />
+                                    1+1 행운의 주인공은?</strong>
+                                <span class="material-symbols-outlined icon">
+                                    add
+                                </span>
+                            </p>
                         </div>
                     </div>
                     <div class="news_itm right">
                         <img src="./images/mainnews02.jpg" alt="">
                         <div class="txt">
                             <span>1.1(월) 오전 12:00 ~ 1.24(수) 오후 11:59</span>
-                            <strong>공병수거 미션 완료하고<br />
-                                경품 당첨 기회 GET!</strong>
-                            <span class="material-symbols-outlined">
-                                add
-                            </span>
+                            <p>
+                                <strong>공병수거 미션 완료하고<br />
+                                    경품 당첨 기회 GET!</strong>
+                                <span class="material-symbols-outlined icon">
+                                    add
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -873,11 +886,11 @@
 
 
         <footer id="footer" class="footer">
-            <div class="footer_wrap">
+            <div class="footer_wrap con">
                 <div class="footer_top">
                     <ul>
                         <li><a href="">서비스이용약관</a></li>
-                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="" class="b">개인정보처리방침</a></li>
                         <li><a href="">영상정보처리기 운영/관리 방침</a></li>
                         <li><a href="">위치기반서비스 이용약관</a></li>
                         <li><a href="">공지사항</a></li>
@@ -894,15 +907,15 @@
                 <div class="footer_bottom">
                     <div class="left">
                         <img src="./images/logo_footer.png" alt="">
-                        <address>
-                            (주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 최민정
-                            사업자 등록번호 106-86-68127 통신판매신고번호 2018-서울용산-0014 제품 문의 : 080-380-0114 FAX 02-6040-7108
-                            이메일 주소 innisfree@innisfree.com 비즈니스제휴/입점문의 partner.biz@innisfree.com
+                        <p class="info">
+                            (주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층 이니스프리 대표이사 최민정<br />
+                            사업자 등록번호 106-86-68127 통신판매신고번호 2018-서울용산-0014 제품 문의 : 080-380-0114 FAX 02-6040-7108<br />
+                            이메일 주소 innisfree@innisfree.com 비즈니스제휴/입점문의 partner.biz@innisfree.com<br />
                             이메일 주소 무단 수집 거부 개인정보 보호책임자 정구화 호스팅 서비스 제공자 ㈜이니스프리
-                        </address>
-                        <p>
-                            ㈜토스페이먼츠의 에스크로 서비스 가입 저희 쇼핑몰은
-                            고객님의 안전한 거래를 위해 무통장입금 거래에 대해 구매안전서비스를 적용하고 있습니다.
+                        </p>
+                        <p class="toss">
+                            ㈜토스페이먼츠의 에스크로 서비스 가입 저희 쇼핑몰은<br />
+                            고객님의 안전한 거래를 위해 무통장입금 거래에 대해 구매안전서비스를 적용하고 있습니다.<br />
                             <a href="">토스페이먼츠 구매안전 서비스 가입확인</a>
                         </p>
                         <div class="copy">
@@ -910,12 +923,14 @@
                         </div>
                     </div>
                     <div class="right">
-                        <p>고객 서비스 센터 이용안내
-                            <a href="">080-380-0114</a>(수신자 요금 부담)
-                            <span>운영시간 AM 09:00 ~ PM 18:00</span> (주말 및 공휴일 휴무)
-                            <span>점심시간 PM 12:00 ~ PM 13:00</span>
-                        </p>
-                        <a href="">1대1 상담작성</a>
+                        <div class="call">
+                            <p>고객 서비스 센터 이용안내<br />
+                                <a href="">080-380-0114</a>(수신자 요금 부담)<br />
+                                <span>운영시간 AM 09:00 ~ PM 18:00</span> (주말 및 공휴일 휴무)<br />
+                                <span>점심시간 PM 12:00 ~ PM 13:00</span>
+                            </p>
+                            <a href="">1대1 상담작성</a>
+                        </div>
                     </div>
                 </div>
             </div>
