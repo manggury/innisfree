@@ -208,6 +208,25 @@
     text-decoration: line-through;
 }
 
+.main_visual .arrows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1500px;
+    width: 100%;
+}
+
+.main_visual .arrows .icon {
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
 
 .main_event {
     position: relative;
